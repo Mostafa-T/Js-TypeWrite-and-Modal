@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS - Modal</title>
+  <!-- Style sheets -->
+  <link rel="stylesheet" href="build/css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+
+  <section class="home">
+    <div class="home-container">      
+      <div class="intro">
+        <h2 class="type-write">Inovation</h2>
+        <button id="modalBtn">Start Now</button>
+      </div>
+    </div>
+  </section>
+  <div class="overlay"></div>
+  <!--Modal Section-->
+    <div class="modal-container">
+      <div class="modal-head">
+        <h3>Join Now</h3>
+        <span id="closeBtn"><i class="fas fa-times"></i></span>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum placeat obcaecati at maxime tenetur aperiam.</p>
+        <form>
+          <div class="input-styled">
+          <input type="text" placeholder="Email">
+          <i class="far fa-envelope"></i>
+          </div>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+  
+  <!-- Scripts -->
+  <script src="build/js/app.js"></script>
+</body>
+</html>
